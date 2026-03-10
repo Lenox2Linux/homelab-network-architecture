@@ -14,16 +14,16 @@ Improve home network security while isolating a cybersecurity home lab to reduce
 
 ## Network Environment
 
-Primary Router  
+**Primary Router**  
 TP-Link Archer AX3200 (Home Network)
 
-Lab Router  
+**Lab Router**  
 TP-Link Archer AX50 (Isolated Lab Network)
 
-Lab Switch  
+**Lab Switch**  
 Netgear GS308E Managed Switch (Lab Device Expansion)
 
-Future Expansion  
+**Future Expansion**  
 Additional managed switches to support VLAN segmentation (802.1Q)
 
 ---
@@ -32,24 +32,15 @@ Additional managed switches to support VLAN segmentation (802.1Q)
 
 The lab network is isolated from the primary home network using a router-behind-router architecture.
 
+
 Internet
-│
-ISP Modem
-│
-TP-Link Archer AX3200
-(Primary Home Router)
-│
-Home Network Devices
-│
-AX3200 LAN Port
-│
-TP-Link Archer AX50
-(Lab Router)
-│
-Netgear GS308E
-(Managed Lab Switch)
-│
-├ Kali Linux Attacker System
-├ Ubuntu Endpoint
-├ Wazuh Server
-└ Additional Lab / IoT Devices
+> ISP Modem
+> TP-Link Archer AX3200 (Primary Home Router)
+> Home Network Devices
+> AX3200 LAN Port
+> TP-Link Archer AX50 (Lab Router)
+> Netgear GS308E (Managed Lab Switch)
+> MacBook Pro 2012 - Kali Linux Attacker System
+> MacBook Air - Ubuntu Endpoint
+> Mac mini - Wazuh Server
+> Additional Lab / IoT Devices
