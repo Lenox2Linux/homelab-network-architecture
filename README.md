@@ -31,3 +31,25 @@ Additional managed switches to support VLAN segmentation (802.1Q)
 ## Network Segmentation Design
 
 The lab network is isolated from the primary home network using a router-behind-router architecture.
+
+Internet
+│
+ISP Modem
+│
+TP-Link Archer AX3200
+(Primary Home Router)
+│
+Home Network Devices
+│
+AX3200 LAN Port
+│
+TP-Link Archer AX50
+(Lab Router)
+│
+Netgear GS308E
+(Managed Lab Switch)
+│
+├ Kali Linux Attacker System
+├ Ubuntu Endpoint
+├ Wazuh Server
+└ Additional Lab / IoT Devices
