@@ -60,7 +60,7 @@ Primary workstation used for lab administration, documentation, and virtualizati
 Ubuntu Server host running the Wazuh monitoring platform using Docker.
 
 **MacBook Pro 2012**  
-Kali Linux attacker system used for scanning, testing, and network analysis.
+Kali Linux attacker system used for network scanning, testing, and packet analysis.
 
 **MacBook Air**  
 Ubuntu endpoint used as a monitored lab system that generates logs and security events.
